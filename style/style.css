@@ -191,6 +191,13 @@ h2 {
     color: #f44336 ;
 }
 
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
 /* =========== screen-2 (About Us) =============== */
 .screen-2 {
     /*background-image: url(../img/bg-1.png);*/
@@ -227,22 +234,194 @@ h2 {
 .screen-3 {
     /*background-image: url(../img/bg-1.png);*/
     height: 762px;
-    background-color: antiquewhite;
+    background-color: #f7f7f7;
 }
+
+.screen-title  {
+    text-align: center;
+    padding: 91px 0px 68px 0px;
+}
+
+.service-line {
+    text-align: center;
+    margin: 36px 0;
+}
+
+.service-left {
+    display: inline-block;
+}
+
+.service-text-block {
+    width: 450px;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.service-header {
+    color: black;
+}
+
+.service-header-active{
+    color: #f44336;
+}
+
+.service-text {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #999999;
+}
+
+.service-logo {
+    position: relative;
+    margin: 0 45px;
+    display: inline-block;
+    border: 1px solid;
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
+    background-color: #e1e1e1;
+}
+
+.service-logo-active {
+    background-color: #f44336;
+}
+
+.service-logo-container {
+    position: absolute;
+    top: 36px;
+    left: 42px;
+}
+
+
+.service-left .service-header {
+    text-align: right;
+}
+
+.service-left .service-text {
+    text-align: right;
+}
+
+.service-left .service-logo {
+}
+
+.service-right {
+    display: inline-block;
+    margin: 0 45px;
+}
+
+.service-right .service-header {
+    text-align: left;
+}
+
+.service-right .service-text {
+    text-align: left;
+}
+
+.service-right .service-logo {
+}
+
 
 /* =========== screen-4 (Our Gallery) =============== */
 .screen-4 {
-    /*background-image: url(../img/bg-1.png);*/
-    height: 889px;
-    background-color: antiquewhite;
+/*    height: 889px;*/
 }
+
+.screen-4-title {}
+
+.gallery {
+    margin: 0 auto;
+    margin-bottom: 186px;
+    text-align: center;
+}
+
+.gallery-item {
+    display: inline-block;
+    margin: 0px 14px;
+}
+
+.gal-item-info {
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.gal-item-info p {
+    max-height: 22px;
+    padding-top: 19px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 500;
+}
+
+.gallery-item_4 .gal-item-info p {
+    padding-top: 6px;
+    padding-bottom: 14px;
+}
+
+.button_buy {
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    background-color: #f44336;
+    color: white;
+    margin: 13px 0;
+    line-height: 1.8;
+}
+
 
 /* =========== screen-5 (Testimonial) =============== */
 .screen-5 {
+
     background-image: url(../img/Testimonial.jpg);
     height: 537px;
-    background-color: antiquewhite;
 }
+
+.screen-5-title {
+    color: white;
+    font-size: 48px;
+}
+
+.screen-5-quotes {
+    text-align: center;
+}
+
+.screen-5-box {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.arrow-left{
+    vertical-align: top;
+    margin: 10px 80px 0 0;
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    border: 1px solid #fff;
+    color: white;
+    font-size: xx-large;
+}
+
+.arrow-right{
+    vertical-align: top;
+    margin: 10px 0 0 80px;
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    border: 1px solid #fff;
+    color: white;
+    font-size: xx-large;
+}
+
+.screen-5-text {
+    display: inline-block;
+    width: 940px;
+    color: white;
+    text-align: center;
+    color: white;
+}
+
 
 /* =========== screen-6 (News & Events) =============== */
 .screen-6 {
@@ -250,9 +429,34 @@ h2 {
     background-color: antiquewhite;
 }
 
+.screen-6 div {
+    border: 1px solid green;
+}
+
+
+
 /* =========== screen-7 (Our Team) =============== */
 .screen-7 {
     height: 888px;
+    background-color: lightblue;
+}
+
+/* =========== screen-8 (Subscribe with Us) =============== */
+.screen-8 {
+    background-image: url();
+}
+
+/* =========== screen-9 (Contact us) =============== */
+.screen-9 {
+    background-image: url();
+}
+
+/* =========== screen-10 (Route Map) =============== */
+.screen-10 {
     background-color: antiquewhite;
 }
 
+/* =========== Footer =============== */
+.Footer {
+
+}
