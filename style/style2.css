@@ -1,0 +1,14 @@
+.test {
+    border: 2px solid black;
+    width: 70px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.class-2 {
+    float: left;
+}
+
+.class-3 {
+    clear: both;
+}

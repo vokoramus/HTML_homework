@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.screen-1 {
+    background-image: url(../img/bg-1.png);
+    height: 725px;
+}
+
+.header {
+    /*text-align: center;*/
+    color: #ffffff;
+    background-color: #000;
+    opacity: 0.5;
+    height: 83px;
+    margin-top: 24px;
+
+}
+
+.logo {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    line-height: 22px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    float: left;
+    margin-top: 24px;
+    margin-left: 475px;
+}
+
+.logo-1 {
+    font-size: 36px;
+    line-height: 22px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    /*display: inline-block;*/
+    /*float: left;*/
+}
+
+.logo-2 {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 500;
+    letter-spacing: 2.0em;
+    /*display: inline-block;*/
+    /*float: left;*/
+}
+
+.header_items {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 7px;
+}
+
+.tel {
+    display: inline-block;
+    margin: 29px 50px;
+}
+
+.email {
+    display: inline-block;
+}
+
+.search {
+    display: inline-block;
+    border: 1px solid #fff;
+    margin-left: 130px;
+}
+
+.search-text {
+    padding: 0px 60px 0px 0px;
+
+}
+
+.search-button {
+    border-left: 1px solid #fff;
+    height: 25px;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+.menu {
+    text-align: center;
+    height: 78px;
+    margin-top: 20px;
+}
+
+.menu-list {
+    /*float: left;*/
+    display: inline;
+    list-style-type: none;
+    padding: 0 15px;
+}
+
+.menu-link {
+    font-size: 16.7px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu-link-active {
+    color: #1122ff;
+    font-weight: 700;
+    border-bottom: 3px solid;
+}
+
+.menu-link:hover {
+    color: #0000ff;
+}
+
+.menu-link:active {
+    color: #ff0000;
+}
+
+
+.screen-1-content {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.screen-1-nunc {
+    color: #f0f;
+    padding-top: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+}
+
+.screen-1-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    line-height: 48px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: #f0f;
+    padding-top: 100px;
+}
+
+.social {
+    margin-top: 74px
+}
+
+.social_item {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    margin: 0 6px;
+    vertical-align: middle;
+}
+
+.social_item:hover {
+    border-color: #0000ff;
+}
+
+.social_item:active {
+    border-color: #ff0000;
+}
+
+.social_item img {
+    padding-top: 13px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 500;
+    color: #f44336 ;
+}
+
+/* =========== screen-2 (About Us) =============== */
+.screen-2 {
+    /*background-image: url(../img/bg-1.png);*/
+    height: 500px;
+    background-color: antiquewhite;
+}
+
+.screen-2-container {
+    padding: 70px 400px;
+}
+
+.screen-2-container p {
+    width: 450px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+    color: #999999;
+    float: left;
+    clear: both;
+}
+
+.screen-2-container h2 {
+    float: left;
+}
+
+.screen-2-container img {
+    display: inline-block;
+    padding-left: 60px;
+}
+
+/* =========== screen-3 (Services) =============== */
+.screen-3 {
+    /*background-image: url(../img/bg-1.png);*/
+    height: 762px;
+    background-color: antiquewhite;
+}
+
+/* =========== screen-4 (Our Gallery) =============== */
+.screen-4 {
+    /*background-image: url(../img/bg-1.png);*/
+    height: 889px;
+    background-color: antiquewhite;
+}
+
+/* =========== screen-5 (Testimonial) =============== */
+.screen-5 {
+    background-image: url(../img/Testimonial.jpg);
+    height: 537px;
+    background-color: antiquewhite;
+}
+
+/* =========== screen-6 (News & Events) =============== */
+.screen-6 {
+    height: 888px;
+    background-color: antiquewhite;
+}
+
+/* =========== screen-7 (Our Team) =============== */
+.screen-7 {
+    height: 888px;
+    background-color: antiquewhite;
+}
+
